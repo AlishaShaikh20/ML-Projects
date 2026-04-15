@@ -31,3 +31,19 @@ This project predicts medical insurance charges using Linear Regression.
 * One-hot encoding vs label encoding
 * Understanding model performance metrics
 * Effect of feature scaling and target scale
+
+## 📂 Dataset
+
+The dataset used in this project is the **Medical Insurance Cost Dataset**.
+
+It includes demographic and health-related features such as:
+- Age
+- Sex
+- BMI
+- Number of children
+- Smoking status
+- Region
+
+The target variable is **charges**, which represents medical insurance cost.
+
+🔗 Source: https://www.kaggle.com/datasets/mosapabdelghany/medical-insurance-cost-dataset
