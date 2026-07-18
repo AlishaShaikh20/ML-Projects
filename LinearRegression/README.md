@@ -1,49 +1,26 @@
-# Linear Regression - Insurance Cost Prediction
+# Linear Regression — Insurance Cost Prediction
 
-## 📌 Overview
+## Overview
+Predicts medical insurance charges using Linear Regression, based on demographic and health-related features.
 
-This project predicts medical insurance charges using Linear Regression.
+## Dataset
+[Medical Insurance Cost Dataset](https://www.kaggle.com/datasets/mosapabdelghany/medical-insurance-cost-dataset) — includes age, sex, BMI, number of children, smoking status, and region. Target variable: `charges` (medical insurance cost).
 
-## 📊 Dataset Features
+## Steps
+- Data preprocessing (encoding categorical features)
+- Train-test split
+- Model training using Linear Regression
+- Model evaluation using MSE and R² score
 
-* Age
-* BMI
-* Children
-* Sex
-* Smoker
-* Region
+## Results
+- **R² Score:** 0.78
+- **MSE:** 33,596,916
+- **RMSE:** ~5,800
 
-## ⚙️ Steps
+## Key Learnings
+- One-hot encoding vs. label encoding, and when to use each
+- Understanding model performance metrics (MSE, RMSE, R²) and what they actually represent
+- Effect of feature scaling and target scale on interpretation
 
-* Data preprocessing (encoding categorical features)
-* Train-test split
-* Model training using Linear Regression
-* Model evaluation using MSE and R² score
-
-## 📈 Results
-
-* R² Score: 0.78
-* MSE: 33,596,916
-* RMSE: ~5800
-
-## 💡 Key Learnings
-
-* One-hot encoding vs label encoding
-* Understanding model performance metrics
-* Effect of feature scaling and target scale
-
-## 📂 Dataset
-
-The dataset used in this project is the **Medical Insurance Cost Dataset**.
-
-It includes demographic and health-related features such as:
-- Age
-- Sex
-- BMI
-- Number of children
-- Smoking status
-- Region
-
-The target variable is **charges**, which represents medical insurance cost.
-
-🔗 Source: https://www.kaggle.com/datasets/mosapabdelghany/medical-insurance-cost-dataset
+## Notes / Limitations
+R² of 0.78 leaves some variance unexplained — likely due to `charges` having a long right tail (a small number of high-cost outliers, often smokers with additional health complications). A log-transform on the target or a non-linear model could likely improve on this baseline.
