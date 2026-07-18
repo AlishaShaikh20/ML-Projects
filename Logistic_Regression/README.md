@@ -15,8 +15,6 @@ This project builds a Logistic Regression model to predict employee turnover —
 
 **Target variable:** whether the employee left the company (binary classification).
 
-> Dataset and problem statement were provided as part of the Apna College AI/ML course and are not included in this repository, as that material belongs to the course.
-
 ## Methodology
 
 1. **Data preprocessing** — cleaning the dataset and preparing features for modeling
