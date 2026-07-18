@@ -23,13 +23,13 @@ Hands-on implementations from my AI/ML coursework (Apna College) — one folder 
 
 ## Projects
 
-**Insurance Cost Prediction — Linear Regression predicting medical insurance charges. R² 0.78.
+**Insurance Cost Prediction** — Linear Regression predicting medical insurance charges. R² 0.78.
 
 **Employee Turnover Prediction** — Logistic Regression with L1/L2 comparison. Best accuracy ~87% (L1).
 
 **Iris Flower Classification** — KNN, Naive Bayes, and Logistic Regression compared side by side. All hit perfect scores (expected given the dataset).
 
-**CreditWise Loan Approval— Compared Logistic Regression, Naive Bayes, and KNN on loan approval data. Logistic Regression performed best (F1: 0.79).
+**CreditWise Loan Approval**— Compared Logistic Regression, Naive Bayes, and KNN on loan approval data. Logistic Regression performed best (F1: 0.79).
 
 **ShopSmart Purchase Prediction** — Decision Tree predicting purchase likelihood from visitor sessions. F1: 0.634, beating the 0.55 benchmark.
 
@@ -37,6 +37,3 @@ Hands-on implementations from my AI/ML coursework (Apna College) — one folder 
 
 `Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib` · `Seaborn`
 
-## Notes
-
-Datasets and problem statements provided by the Apna College AI/ML course are not included in this repo, as that material belongs to the course — each project's README describes the data and problem instead. This repo will keep growing as I work through SVM, ensemble methods, unsupervised learning, deep learning, and RAG/GenAI.
