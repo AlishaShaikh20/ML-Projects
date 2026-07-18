@@ -23,15 +23,15 @@ Hands-on implementations from my AI/ML coursework (Apna College) — one folder 
 
 ## Projects
 
-**[Insurance Cost Prediction](./linear-regression)** — Linear Regression predicting medical insurance charges. R² 0.78.
+**Insurance Cost Prediction — Linear Regression predicting medical insurance charges. R² 0.78.
 
-**[Employee Turnover Prediction](./logistic-regression)** — Logistic Regression with L1/L2 comparison. Best accuracy ~87% (L1).
+**Employee Turnover Prediction** — Logistic Regression with L1/L2 comparison. Best accuracy ~87% (L1).
 
-**[Iris Flower Classification](./knn-naive-bayes)** — KNN, Naive Bayes, and Logistic Regression compared side by side. All hit perfect scores (expected given the dataset).
+**Iris Flower Classification** — KNN, Naive Bayes, and Logistic Regression compared side by side. All hit perfect scores (expected given the dataset).
 
-**[CreditWise Loan Approval](./creditwise)** — Compared Logistic Regression, Naive Bayes, and KNN on loan approval data. Logistic Regression performed best (F1: 0.79).
+**CreditWise Loan Approval— Compared Logistic Regression, Naive Bayes, and KNN on loan approval data. Logistic Regression performed best (F1: 0.79).
 
-**[ShopSmart Purchase Prediction](./shopsmart)** — Decision Tree predicting purchase likelihood from visitor sessions. F1: 0.634, beating the 0.55 benchmark.
+**ShopSmart Purchase Prediction** — Decision Tree predicting purchase likelihood from visitor sessions. F1: 0.634, beating the 0.55 benchmark.
 
 ## Tech Stack
 
