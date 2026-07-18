@@ -1,31 +1,37 @@
-# Logistic Regression - Employee Turnover Prediction
+Logistic Regression — Employee Turnover Prediction
 
-## 📌 Project Overview
-This project predicts employee turnover using Logistic Regression.
+Overview
 
-## 📊 Dataset Features
-- Age  
-- Salary  
-- Experience  
-- Job Satisfaction  
-- Performance Rating  
+Predicts employee turnover (whether an employee is likely to leave) using Logistic Regression.
 
-## ⚙️ Steps Followed
-1. Data preprocessing  
-2. Train-test split  
-3. Logistic Regression model  
-4. L1 and L2 regularization  
-5. Model evaluation  
+Dataset Features
 
-## 📈 Results
-- Baseline Accuracy: ~85.9%  
-- Lasso Accuracy: ~87.0%  
 
-## 🧠 Key Learnings
-- Logistic Regression working  
-- Effect of L1 vs L2 regularization  
-- Importance of C parameter  
-- Model evaluation using classification report  
+Age
+Salary
+Experience
+Job Satisfaction
+Performance Rating
 
-## 🎓 Note
-This project was completed as part of the Apna College Machine Learning course.
+
+(Dataset and problem statement were provided as part of the Apna College AI/ML course and are not included in this repo, since that material belongs to the course. See the notebook for how the data was structured and used.)
+
+Steps
+
+
+Data preprocessing
+Train-test split
+Logistic Regression model
+L1 and L2 regularization comparison
+Model evaluation
+
+
+Results
+Baseline Accuracy: ~85.9%
+Lasso (L1) Accuracy: ~87.0%
+
+Key Learnings
+How Logistic Regression works under the hood
+Effect of L1 vs. L2 regularization on model performance
+Importance of the C regularization parameter
+Model evaluation using a classification report
