@@ -1,51 +1,30 @@
-# Machine Learning Fundamentals
+Machine Learning Fundamentals
 
-Hands-on implementations from my AI/ML coursework — one folder per algorithm, each with a working notebook and a real dataset/problem to solve, not just toy examples.
+Hands-on implementations from my AI/ML coursework (Apna College) — one folder per project, each with a working notebook, real results, and a short writeup.
 
----
 
-## Progress
+My main, fully deployed end-to-end projects (Cold Outreach Agent, Technical Onboarding Assistant, and others) live in separate repositories — this repo is specifically my algorithm-by-algorithm learning record.
 
-| Algorithm | Project | Status |
-|---|---|---|
-| Linear Regression | House Price Prediction | ✅ |
-| Logistic Regression | Employee Turnover | ✅ |
-| K-Nearest Neighbors | Iris Flower Classification | ✅ |
-| **Supervised algorithms comparison** | **Credit Score & Loan Approval System** | ✅ |
-| Decision Trees | ShopSmart — Visitor Purchase Prediction | ✅ |
-| SVM | — | 🔜 |
-| Gradient Boosting / AdaBoost / Ensembles | NovaGen Lab | 🔜 |
-| Unsupervised Learning (Clustering, DBSCAN) | Smart Clustering System | 🔜 |
-| Deep Learning (ANN, CNN, RNN) | — | 🔜 |
-| Transformers, RAG, GenAI | — | 🔜 |
 
-*Updated as each folder is finished and pushed — this table is the source of truth for what's actually done, not a course syllabus.*
 
----
+Progress
 
-## 1. Linear Regression — House Price Prediction
-Predicts house prices from features like size, location, and number of rooms using linear regression.
+ProjectAlgorithm(s)StatusInsurance Cost PredictionLinear Regression✅Employee Turnover PredictionLogistic Regression✅Iris Flower ClassificationKNN, Naive Bayes, Logistic Regression✅CreditWise Loan ApprovalLogistic Regression, KNN, Naive Bayes (compared)✅ShopSmart Purchase PredictionDecision Tree✅SVM—🔜Ensemble Methods (Boosting, Voting/Stacking)NovaGen Lab🔜Unsupervised LearningClustering, DBSCAN🔜Deep LearningANN, CNN, RNN🔜Transformers, RAG, GenAI—🔜
 
-## 2. Logistic Regression — Employee Turnover
-Classifies whether an employee is likely to leave the company, based on workplace and demographic factors.
+Updated as each project is finished and pushed.
 
-## 3. K-Nearest Neighbors — Iris Flower Classification
-Classifies flower species from petal/sepal measurements — the classic KNN benchmark dataset.
+Projects
 
-## 4. Credit Score & Loan Approval System
-Ran the full set of supervised algorithms (logistic regression, decision trees, SVM, KNN, etc.) on the same loan-approval dataset to directly compare performance. **Logistic regression gave the best results.**
+Insurance Cost Prediction — Linear Regression predicting medical insurance charges. R² 0.78.
 
-## 5. Decision Trees — ShopSmart (Visitor Purchase Prediction)
-Predicts whether an e-commerce visitor session will result in a purchase, using browsing behavior across 12,330 sessions. Evaluated using F1 score (not accuracy) due to class imbalance — see the project's own README for the full reasoning.
+Employee Turnover Prediction — Logistic Regression with L1/L2 comparison. Best accuracy ~87% (L1).
 
----
+Iris Flower Classification — KNN, Naive Bayes, and Logistic Regression compared side by side. All hit perfect scores (expected given the dataset).
 
-## Tech Stack
+CreditWise Loan Approval — Compared Logistic Regression, Naive Bayes, and KNN on loan approval data. Logistic Regression performed best (F1: 0.79).
 
-`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `Matplotlib`
+ShopSmart Purchase Prediction — Decision Tree predicting purchase likelihood from visitor sessions. F1: 0.634, beating the 0.55 benchmark.
 
----
+Tech Stack
 
-## Notes
-
-This repo will keep growing as I work through the rest of the course (SVM, ensemble methods, unsupervised learning, deep learning, and RAG/GenAI). Each new folder gets pushed once it's actually done and understood, not just started.
+Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn
