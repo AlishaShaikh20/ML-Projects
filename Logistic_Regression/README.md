@@ -18,7 +18,6 @@ Performance Rating
 
 Steps
 
-
 Data preprocessing
 Train-test split
 Logistic Regression model
@@ -27,10 +26,13 @@ Model evaluation
 
 
 Results
+
 Baseline Accuracy: ~85.9%
 Lasso (L1) Accuracy: ~87.0%
 
+
 Key Learnings
+
 How Logistic Regression works under the hood
 Effect of L1 vs. L2 regularization on model performance
 Importance of the C regularization parameter
