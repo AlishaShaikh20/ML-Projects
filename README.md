@@ -2,8 +2,6 @@
 
 Hands-on implementations from my AI/ML coursework (Apna College) — one folder per project, each with a working notebook, real results, and a short writeup.
 
-> My main, fully deployed end-to-end projects (Cold Outreach Agent, Technical Onboarding Assistant, and others) live in separate repositories — this repo is specifically my algorithm-by-algorithm learning record.
-
 ## Progress
 
 | Project | Algorithm(s) | Status |
