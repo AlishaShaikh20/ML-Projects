@@ -87,7 +87,6 @@ Final Test Accuracy: 84.52%
 RNN_for_sentiment_analysis/
 │
 ├── rnn_for_sentiment_analysis.ipynb
-├── IMDB Dataset.csv
 ├── README.md
 ```
 
