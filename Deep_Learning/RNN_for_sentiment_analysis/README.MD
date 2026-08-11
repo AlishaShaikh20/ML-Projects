@@ -20,7 +20,6 @@ This project demonstrates:
 - Pandas
 - NumPy
 - Scikit-learn
-- Matplotlib
 - NLP Preprocessing Techniques
 
 ## Dataset
