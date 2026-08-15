@@ -25,7 +25,8 @@ Hands-on implementations from my AI/ML coursework (Apna College) — one folder 
 | **Deep Learning — RNN** | | |
 | IMDB Sentiment Analysis | RNN | ✅ |
 | **GenAI** | | |
-| Transformers, RAG, GenAI | — | 🔜 |
+| Text Summarizer | T5 (fine-tuned Transformer), FastAPI | ✅ |
+| RAG-based Q&A | — | 🔜 |
 
 *Updated as each project is finished and pushed.*
 
@@ -65,8 +66,12 @@ Hands-on implementations from my AI/ML coursework (Apna College) — one folder 
 
 **IMDB Sentiment Analysis** — RNN classifying movie reviews as positive/negative using TF-IDF features. Test accuracy: 82.85%.
 
+### GenAI
+
+**Text Summarizer** — Fine-tuned T5-small on the SAMSum dialogue dataset to generate concise summaries of conversations and general text, deployed as a live web app with a FastAPI backend and HTML/JS frontend.
+
 ---
 
 ## Tech Stack
 
-Python · PyTorch · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
+Python · PyTorch · Hugging Face Transformers · FastAPI · Scikit-learn · Pandas · NumPy · Matplotlib · Seaborn
