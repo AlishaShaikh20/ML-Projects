@@ -1,4 +1,4 @@
-# Dialogue Text Summarizer (T5 + FastAPI)
+# Text Summarizer (T5 + FastAPI)
 
 A dialogue summarization system that fine-tunes a T5 transformer model on the SAMSum dataset to generate concise summaries of conversations, deployed as a web app using FastAPI.
 
