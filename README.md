@@ -24,8 +24,9 @@ Hands-on implementations from my AI/ML coursework (Apna College) — one folder 
 | CIFAR-10 Image Classification | CNN | ✅ |
 | **Deep Learning — RNN** | | |
 | IMDB Sentiment Analysis | RNN | ✅ |
-| **Deep Learning — GAN** | | |
+| **GAN** | | |
 | GAN Face Generation | Generative Adversarial Network | ✅ |
+| DCGAN | — | 🔜 |
 | **GenAI** | | |
 | Text Summarizer | T5 (fine-tuned Transformer), FastAPI | ✅ |
 | RAG-based Q&A | — | 🔜 |
@@ -68,7 +69,7 @@ Hands-on implementations from my AI/ML coursework (Apna College) — one folder 
 
 **IMDB Sentiment Analysis** — RNN classifying movie reviews as positive/negative using TF-IDF features. Test accuracy: 82.85%.
 
-### Deep Learning — GAN
+### GAN
 
 **GAN Face Generation** — Generator-Discriminator network trained adversarially on the CelebA dataset to generate synthetic 64x64 human face images from random noise.
 
